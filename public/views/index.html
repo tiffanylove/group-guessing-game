@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Game</title>
+    <script src="vendors/jquery.min.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <script src="server.js" charset="utf-8"></script>
+
+  </head>
+  <body>
+    <h1>Do You Want My Digits</h1>
+    <button id="start">Start Game</button>
+  <div id = "inputContainer">
+      <h3>Player 1</h3>
+
+    <input class= "playerGuesses" id = "player1" type="text" placeholder= "Enter Your Guess" name= value="">
+
+      <h3>Player 2</h3>
+
+    <input class= "playerGuesses" id = "player2" type="text" placeholder= "Enter Your Guess" name= value="">
+      <h3>Player 3</h3>
+
+    <input class= "playerGuesses" id = "player3" type="text" placeholder= "Enter Your Guess" name= value="">
+      <h3>Player 4</h3>
+
+    <input class= "playerGuesses" id = "player4" type="text" placeholder= "Enter Your Guess" name= value="">
+  </div>
+  <div class = "modeButtons">
+    <button id = "easyButton" data-range='easy'>Easy (range 1-20)</button>
+    <button id = "mediumButton" data-range='medium'>Medium(range 1-50)</button>
+    <button id = "hardButton" data-range='hard'>Hard(range 1-100)</button>
+  </div>
+<div id = ""></div>
+<div id= "totalGuesses"></div>
+
+  <div class= "gameButtons">
+    <button id = "submit">Submit</button>
+    <button id = "clear">Clear Guesses</button>
+    <button id = "reset">Reset Game</button>
+  </div>
+
+
+  </body>
+</html>
